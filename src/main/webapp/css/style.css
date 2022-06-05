@@ -107,6 +107,9 @@ tr.row0 {
         background-color: #ffffff;
 }
 
+h3 {
+    font-size: larger;
+}
 select {
     height: 30px;
 }
