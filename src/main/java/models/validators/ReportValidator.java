@@ -22,6 +22,9 @@ public class ReportValidator {
 
         //タイトルのチェック
         String titleError = validateTitle(rv.getTitle());
+        if(!titleError.equals("")) {
+            errors.add(titleError);
+        }
 
         //内容のチェック
         String contentError = validateContent(rv.getContent());
